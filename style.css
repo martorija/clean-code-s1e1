@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completedTasks label {
+ul #completedTasks label {
     text-decoration: line-through;
     color: #888;
 }
