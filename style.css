@@ -18,8 +18,10 @@ body {
 }
 
 @media (max-width:768px) {
-.mainImage { text-align: center;
-}
+
+  .mainImage { text-align: center;
+  }
+
 }
 .mainElement {
     display: block;
