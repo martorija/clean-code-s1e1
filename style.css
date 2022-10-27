@@ -29,7 +29,7 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .taskRowWrapper {
     display: flex;
@@ -38,10 +38,12 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+li,
+h3 {
     list-style:none;
 }
-input,button{
+input,
+button{
     outline:none;
 }
 button {
@@ -88,7 +90,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-input#newTask {
+input#new-task {
     width: 318px;
 }
 
@@ -115,7 +117,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 button.delete img {
@@ -128,7 +130,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul #completed-tasks label {
+ul#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
@@ -138,11 +140,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li .editMode input[type=text] {
+ul li.editMode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li .editMode label {
+ul li.editMode label {
     display:none;
 }
